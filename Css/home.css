@@ -236,6 +236,7 @@ form .textarea-field {
     .container {
         padding-left: 15%;
         padding-top: 120%;
+        text-align: left;
     }
 
     .title {
