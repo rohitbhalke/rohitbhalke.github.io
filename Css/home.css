@@ -327,7 +327,7 @@ form .textarea-field {
     .timeline-head {
         margin-left: 14%;
         float: none;
-        width: 100%;
+        min-width: 85%;
     }
 
     .timeline-content {
