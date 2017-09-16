@@ -62,10 +62,9 @@ class Introduction extends React.Component {
                 },
                 {
                     link : "Twitter",
-                    href : "https://www.facebook.com/arbhalke",
+                    href : "https://twitter.com/RBhalke",
                     className : "round-icons",
                     icons: "fa fa-twitter"
-
                 }
             ]
         }
