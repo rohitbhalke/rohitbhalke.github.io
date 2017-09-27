@@ -1,3 +1,7 @@
+var PROD = (process.env.PROD_ENV === "prod") || (process.argv.indexOf('prod')!==-1);
+var webpack = require('webpack');
+
+
 var config = {
     entry: '/Users/rbo2913/Documents/My Directory/React/MyWebsite/home.js',
 
@@ -11,6 +15,7 @@ var config = {
         inline: true,
         port: 5000
     },
+    plugins: [],
 
     module: {
         loaders: [
@@ -25,5 +30,15 @@ var config = {
         ]
     }
 }
+
+PROD = true;
+if(PROD) {
+    config.plugins.push(
+        new webpack.optimize.UglifyJsPlugin({
+            compress: { warnings: false }
+        })
+    )
+}
+
 
 module.exports = config;
