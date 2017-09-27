@@ -10,7 +10,7 @@ body {
 
 .background {
     min-height: 786px;
-    background-image: url("../imgs/Background.jpg");
+    background-image: url("../imgs/Background-minified.jpg");
     height : 100%;
     width: 100%;
     background-repeat: no-repeat;
