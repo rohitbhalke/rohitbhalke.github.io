@@ -99,7 +99,7 @@ body {
  */
 
 .timeline-head {
-    width: 35%;
+    width: 42%;
     float: left;
 }
 
@@ -112,7 +112,7 @@ body {
     border-radius: 50%;
     text-align: center;
     color: #FFFFFF;
-    position: absolute;
+    float: left;
     left: 35%;
     margin-left: -2.4rem;
 }
@@ -138,11 +138,12 @@ body {
 }
 
 .timeline-content{
-    margin-left: 38%;
+    margin-left: 46%;
 }
 
 .timeline-content h4{
     margin: 0px;
+    padding-top: 7px;
 
 }
 

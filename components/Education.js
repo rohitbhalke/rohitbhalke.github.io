@@ -14,24 +14,17 @@ class Education extends React.Component {
             education : [
                 {
                     id : 1,
-                    name : 'Computer Science and Engineering',
-                    span : 'June 2010 - May 2017',
-                    role : 'Vishwakarma Institute Of Technology, Pune',
-                    description : "Learnt lot of computer things"
+                    name : 'Masters in Computer Science',
+                    span : 'August 2018 - May 2020',
+                    role : 'University At Buffalo',
+                    description : "I will be starting my masters in Computer Science from August 27."
                 },
                 {
                     id : 2,
-                    name : 'HSC',
-                    span : '2008 - 2010',
-                    role : 'Mahatma Gandhi College, Ahmedpur',
-                    description : "Learnt lot of computer things"
-                },
-                {
-                    id : 3,
-                    name : 'SSC',
-                    span : '2007 - 2008',
-                    role : 'Yeshwant Vidyalaya, Ahmedpur',
-                    description : "Learnt lot of computer things"
+                    name : 'Computer Science and Engineering',
+                    span : 'June 2010 - May 2017',
+                    role : 'Vishwakarma Institute Of Technology, Pune',
+                    description : "Completed my undergratuation in Computer Science with 8.48 GPA"
                 }
 
             ]
@@ -69,14 +62,14 @@ class ListOfSchools extends React.Component {
     render() {
         return (
             <div className="timeline">
+                <div className="timeline-head companyName">
+                        <h3>{this.props.school.name}</h3>
+                        <p>
+                            {this.props.school.span}
+                        </p>
+                </div>
                 <div className="timeline-icon">
                     <i className="fa fa-graduation-cap"/>
-                </div>
-                <div className="timeline-head companyName">
-                    <h3>{this.props.school.name}</h3>
-                    <p>
-                        {this.props.school.span}
-                    </p>
                 </div>
                 <div className="timeline-content">
                     <h4>{this.props.school.role}</h4>

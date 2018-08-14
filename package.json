@@ -23,10 +23,12 @@
     "react-router": "^2.6.1",
     "react-typist": "^1.1.1",
     "typed.js": "^2.0.5",
-    "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1"
+    "webpack-dev-server": "2.1.0-beta.10"
   },
   "devDependencies": {
-    "uglify-js": "^3.1.2"
+    "@webpack-cli/serve": "^0.1.0",
+    "uglify-js": "^3.1.2",
+    "webpack": "^2.1.0-beta.22",
+    "webpack-command": "^0.4.1"
   }
 }

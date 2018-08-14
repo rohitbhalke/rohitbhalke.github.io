@@ -66,14 +66,14 @@ class ListOfCompanies extends React.Component {
     render() {
         return (
             <div className="timeline">
-                <div className="timeline-icon">
-                    <i className="fa fa-briefcase"/>
-                </div>
-                <div className="timeline-head companyName">
+            <div className="timeline-head companyName">
                     <h3>{this.props.company.name}</h3>
                     <p>
                         {this.props.company.span}
                     </p>
+                </div>
+                <div className="timeline-icon">
+                    <i className="fa fa-briefcase"/>
                 </div>
                 <div className="timeline-content">
                     <h4>{this.props.company.role}</h4>
