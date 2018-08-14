@@ -1,6 +1,3 @@
-/**
- * Created by rbo2913 on 12/08/17.
- */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TypistLib from './TypistLib.js'
