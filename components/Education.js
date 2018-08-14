@@ -3,8 +3,8 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TypistLib from '/Users/rbo2913/Documents/My Directory/React/MyWebsite/components/TypistLib.js'
-import Social from '/Users/rbo2913/Documents/My Directory/React/MyWebsite/components/Social.js'
+import TypistLib from './TypistLib.js'
+import Social from './Social.js'
 
 
 class Education extends React.Component {

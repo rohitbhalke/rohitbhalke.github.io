@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 
 var config = {
-    entry: '/Users/rbo2913/Documents/My Directory/React/MyWebsite/home.js',
+    entry: './home.js',
 
     output: {
         path:__dirname,
