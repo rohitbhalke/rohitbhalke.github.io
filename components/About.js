@@ -27,7 +27,7 @@ class About extends React.Component {
                         <h1> About Me </h1>
                         <div>
                             <div className="left">
-                                <img src="./imgs/Batman.jpg"/>
+                                <img src="../imgs/Rohit_Niagara.jpg"/>
                             </div>
                             <div className="right lines">
                                 {

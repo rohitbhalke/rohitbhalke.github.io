@@ -17,7 +17,7 @@ class Education extends React.Component {
                     name : 'Masters in Computer Science',
                     span : 'August 2018 - May 2020',
                     role : 'University At Buffalo',
-                    description : "I will be starting my masters in Computer Science from August 27."
+                    description : "I am back to school again. I have strted my graduation study in Computer Science at University At Buffalo,NY."
                 },
                 {
                     id : 2,
