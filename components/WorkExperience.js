@@ -15,8 +15,8 @@ class WorkExperience extends React.Component {
             companies : [
                 {
                     id : 1,
-                    name : 'Crest',
-                    span : 'June 2017 - Present',
+                    name : 'Springer Nature',
+                    span : 'June 2017 - July 2018',
                     role : 'FullStack Developer',
                     description : ["Help stakeholders visualise and identify areas of improvement. Making it accessible to stakeholders when needed. Pulling together metrics from vaious teams to show perfomance at a domain level. "]
                 },

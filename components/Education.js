@@ -15,16 +15,16 @@ class Education extends React.Component {
                 {
                     id : 1,
                     name : 'Masters in Computer Science',
-                    span : 'August 2018 - May 2020',
+                    span : 'August 2018 - December 2019',
                     role : 'University At Buffalo',
-                    description : "I am back to school again. I have strted my graduation study in Computer Science at University At Buffalo,NY."
+                    description : "I am back to school again. I have started my graduation study in Computer Science at University At Buffalo,NY."
                 },
                 {
                     id : 2,
                     name : 'Computer Science and Engineering',
                     span : 'June 2010 - May 2017',
                     role : 'Vishwakarma Institute Of Technology, Pune',
-                    description : "Completed my undergratuation in Computer Science with 8.48 GPA"
+                    description : "I have Completed my undergratuation in Computer Science with 8.48 GPA"
                 }
 
             ]
